@@ -228,7 +228,7 @@ Alpine.data('site', () => ({
     },
 
     getSmallImage(id) {
-        const imageDirectory = '/screenshots/small/optimized';
+        const imageDirectory = '/screenshots';
         const project = this.projects.filter(
             p => p.id === id 
         )[0];
