@@ -16,7 +16,7 @@ Alpine.data('site', () => ({
             screenshot: 'rufflebutts.webp',
             role: 'FED lead',
             commercial: true,
-            tags: ['Magento2', 'migration', 'build', 'full-featured', 'optimized']
+            tags: ['Magento2', 'migration', 'build', 'feature-rich', 'optimized', 'large team']
         },
         {
             id: 2,
@@ -25,7 +25,7 @@ Alpine.data('site', () => ({
             screenshot: 'rogers.webp',
             role: 'FED lead',
             commercial: true,
-            tags: ['Magento2', 'redesign']
+            tags: ['Magento2', 'redesign', 'CMS', 'feature-rich', 'optimized', 'large team']
         },
         {
             id: 3,
@@ -34,7 +34,7 @@ Alpine.data('site', () => ({
             screenshot: 'theraderm.webp',
             role: 'FED lead',
             commercial: true,
-            tags: ['Magento2', 'redesign']
+            tags: ['Magento2', 'redesign', 'refactoring', 'small team']
         },
         {
             id: 4,
@@ -43,16 +43,16 @@ Alpine.data('site', () => ({
             screenshot: 'proline.webp',
             role: 'FED lead',
             commercial: true,
-            tags: ['Magento2', 'redesign', 'full-featured']
+            tags: ['Magento2', 'redesign', 'refactoring', 'feature-rich', 'optimized']
         },
         {
             id: 5,
             name: 'Perfection Learning',
             url: 'https://perfectionlearning.com',
             screenshot: 'perfection-learning.webp',
-            role: 'FED lead',
+            role: 'FE Dev',
             commercial: true,
-            tags: ['Magento2', 'redesign']
+            tags: ['Magento2', 'migration', 'build', 'feature-rich', 'CMS', 'optimized', 'large team']
         },
         {
             id: 6,
@@ -61,7 +61,7 @@ Alpine.data('site', () => ({
             screenshot: 'gabrielross.webp',
             role: 'FED lead',
             commercial: true,
-            tags: ['Magento2', 'redesign']
+            tags: ['Magento2', 'refactoring', 'bug fixing', 'feature-rich']
         },
         {
             id: 7,
@@ -70,16 +70,16 @@ Alpine.data('site', () => ({
             screenshot: 'nightowl.webp',
             role: 'FED lead',
             commercial: true,
-            tags: ['Magento2', 'redesign']
+            tags: ['Magento2', 'refactoring', 'bug fixing', 'client-led']
         },
         {
             id: 8,
             name: 'THK',
             url: 'https://thkstore.com',
             screenshot: 'thk.webp',
-            role: 'FED lead',
+            role: 'FE Dev',
             commercial: true,
-            tags: ['Magento2', 'redesign']
+            tags: ['Magento2', 'migration', 'build', 'feature-rich' ]
         },
         {
             id: 9,
@@ -88,7 +88,7 @@ Alpine.data('site', () => ({
             screenshot: 'rocketweb.webp',
             role: 'FED lead',
             commercial: true,
-            tags: ['Magento2', 'redesign']
+            tags: ['CMS', 'grav', 'redesign', 'optimized']
         },
         {
             id: 10,
@@ -97,43 +97,43 @@ Alpine.data('site', () => ({
             screenshot: 'prime-theme.webp',
             role: 'FED lead',
             commercial: false,
-            tags: ['Magento2', 'redesign']
+            tags: ['Magento2', 'theme', 'starter', 'JS', 'CSS', 'optimized']
         },
         {
             id: 11,
             name: 'Prime UI docs',
             url: 'https://primeui.rocketweb.com/',
             screenshot: 'prime-ui.webp',
-            role: 'FED lead',
+            role: 'Author',
             commercial: false,
-            tags: ['Magento2', 'redesign']
+            tags: ['UI', 'documentation', 'grav', 'CMS', 'library', 'components']
         },
         {
             id: 12,
             name: 'RW Storefront (React)',
             url: '',
             screenshot: 'rw-storefront.webp',
-            role: 'FED lead',
+            role: 'Author',
             commercial: false,
-            tags: ['Magento2', 'redesign']
+            tags: ['PWA', 'Magento2', 'storefront', 'JS', 'react', 'graphQL', 'side project']
         },
         {
             id: 13,
             name: 'Magento2 gulpfile',
             url: 'https://github.com/rocketweb-fed/magento2-gulpfile',
             screenshot: 'm2-gulpfile.webp',
-            role: 'FED lead',
+            role: 'Author',
             commercial: false,
-            tags: ['Magento2', 'redesign']
+            tags: ['JS', 'Magento2', 'gulp', 'tool', 'npm']
         },
         {
             id: 14,
             name: 'Alpine Tailwind starter',
             url: 'https://github.com/jkulig/alpine-tailwind-vite',
             screenshot: 'alpine-tailwind.webp',
-            role: 'FED lead',
+            role: 'Author',
             commercial: false,
-            tags: ['Magento2', 'redesign']
+            tags: ['JS', 'CSS', 'Alpine', 'Tailwind', 'build', 'tool', 'starter', 'Vite', 'npm']
         }
     ], 
     skills: {
@@ -141,7 +141,7 @@ Alpine.data('site', () => ({
             HTML: ['HTML5', 'semantics', 'accessibility'],
             JS: ['ES6', 'Svelte', 'React', 'Vue', 'Alpine', 'Knockout', 'requirejs'],
             CSS: ['CSS3', 'LESS', 'SASS', 'Tailwind', 'Styled Components'],
-            backend: ['PHP', 'MySQL', 'Node', 'GraphQL', 'API', 'JSON'],
+            backend: ['PHP', 'MySQL', 'Node', 'GraphQL', 'API', 'JSON', 'CMS'],
             tooling: ['CLI', 'Git', 'Gulp', 'Jest', 'Webpack', 'Vite', 'Figma', 'InVision', 'Jira', 'Slack']
         },
         soft: {
