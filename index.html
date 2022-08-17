@@ -12,10 +12,10 @@
 
         
       <script type="module" crossorigin src="/portfolio/assets/index.56375c77.js"></script>
-      <link rel="stylesheet" href="/portfolio/assets/index.e034901c.css">
+      <link rel="stylesheet" href="/portfolio/assets/index.eefd7a8d.css">
     </head>
 
-    <body class="flex flex-col bg-mirage-200 text-mirage-800 before:absolute before:top-24 before:block before:h-32 before:w-full before:bg-[url('/bg.jpg')] before:opacity-60 before:bg-center before:z-0 lines-bg-animate">
+    <body class="flex flex-col bg-mirage-200 text-mirage-800 before:absolute before:top-24 before:block before:h-32 before:w-full before:bg-[url('/bg.jpg')] before:opacity-60 before:bg-center before:bg-repeat-x before:z-0 lines-bg-animate">
         <main class="mt-20 flex flex-col items-center" x-data="site">
             <!-- Avatar -->
             <div class="w-32 h-32 my-4 border-4 border-pink-400 bg-gradient-to-br from-pink-100 to-mirage-50 shadow-glow rounded-full overflow-hidden avatar-bg-animate z-10"> 
@@ -40,9 +40,9 @@
             </ul>
             <!-- Bio -->
             <p class="mt-8 mx-4 max-w-lg text-center">
-                Hello! I'm a front-end developer with 14 years of experience in building user interfaces with the main focus on the Magento/Adobe Commerce platform for the last 10 years.
+                Hello! I'm a front-end developer with 14 years of experience in building <a class="underline hover:no-underline hover:text-pink-400 transition-colors" href="https://www.indeed.com/career-advice/career-development/what-is-ui" target="_blank">user interfaces (UI)</a> with the main focus on the <a class="underline hover:no-underline hover:text-pink-400 transition-colors" href="https://business.adobe.com/products/magento/magento-commerce.html" target="_blank">Magento/Adobe Commerce</a> platform.
             </p>
-            <p class="mt-4 mx-4 max-w-lg text-center">I'm always looking forward to new challenges so feel free to reach out if you want to discuss anything UI-related.</p>
+            <p class="mt-4 mx-4 max-w-lg text-center">I'm always on a hunt for a new challenge so feel free to reach out if you want to discuss anything UI-related.</p>
             <!-- CTA Button -->
             <div class="flex justify-center w-full py-16">
                 <a href="https://pl.linkedin.com/in/jakub-kulig-205b8b23" class="py-4 px-8 bg-pink-400 text-white rounded-md font-bold shadow-glow hover:bg-pink-100 transition-colors duration-400">Connect with me</a>
@@ -101,7 +101,7 @@
 
                 <!-- Skills -->
                 <div id="panel-2" class="flex flex-col px-4 md:flex-row gap-4 max-w-4xl justify-center items-center" x-show="isActive(2)" x-transition role="tabpanel" tabindex="0" aria-labelledby="tab-2" x-bind:hidden="!isActive(2)">
-                    <span class="md:w-10 vertical-lr uppercase text-4xl text-mirage-50 order-1 md:order-2 md:basis-1/12">Hard Skills</span>
+                    <span class="md:w-10 vertical-lr uppercase text-4xl text-mirage-800 order-1 md:order-2 md:basis-1/12">Hard Skills</span>
                     <div class="order-2 md:order-1 md:basis-5/12">
                         <template x-for="(topic, index) in skills.hard">
                             <dl>
