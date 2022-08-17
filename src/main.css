@@ -9,15 +9,20 @@ body {
     height: 100%;
 }
 
-.background-animate {
+.avatar-bg-animate {
     background-size: 150%;
-
-    -webkit-animation: AnimationName 8s ease infinite;
-    -moz-animation: AnimationName 8s ease infinite;
-    animation: AnimationName 8s ease infinite;
+    animation: animateAvatarBg 8s ease infinite;
 }
 
-@keyframes AnimationName {
+.lines-bg-animate:before {
+    animation: animateLinesBg 30s linear infinite;
+}
+
+*::selection {
+    background-color: rgb(218 89 149);
+}
+
+@keyframes animateAvatarBg {
 
     0%,
     100% {
@@ -26,6 +31,17 @@ body {
 
     50% {
         background-position: 100% 100%;
+    }
+}
+
+@keyframes animateLinesBg {
+
+    0% {
+        background-position: 0 50%;
+    }
+
+    100% {
+        background-position: 1000px 50%;
     }
 }
 
